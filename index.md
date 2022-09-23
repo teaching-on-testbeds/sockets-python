@@ -91,7 +91,7 @@ Once you have successfully instantiated a profile, it will still take some time 
 
 As your resources come online, you'll see their progress on the CloudLab experiment page. Once each host in your experiment is "green" and has a "✓" icon in the top right corner, it is ready for you to log in! 
 
-For this experiment, you will need a terminal session on to the "romeo" and "juliet" hosts. You can use any method you prefer:
+For this experiment, you will need a terminal session on the "romeo" and "juliet" hosts. You can use any method you prefer:
 
 * Open an SSH session using the terminal in the CloudLab web portal
 * Open an SSH session using a terminal application that is installed on your laptop or PC
