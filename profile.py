@@ -1,4 +1,4 @@
-"""This topology has four VMs on a LAN. Also, the `pcmanfm` file explorer and the Leafpad text editor is installed.
+"""This topology has two VMs on a LAN. Also, `python3`, the `pcmanfm` file explorer, and the Leafpad text editor is installed.
 
 To use this topology, follow the instructions at: [Programming with Python Sockets](https://teaching-on-testbeds.github.io/sockets-python/)
 
