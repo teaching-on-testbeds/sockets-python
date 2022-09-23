@@ -19,23 +19,23 @@ request = pc.makeRequestRSpec()
 
 # Set up first host - romeo
 node_romeo = request.XenVM("romeo")
-node_romeo.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3; /usr/bin/sudo /usr/bin/snap install leafpad"))
+node_romeo.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3 leafpad"))
 node_romeo.startVNC()
 node_romeo.routable_control_ip = True
 
 # Give romeo some friends
 node_juliet = request.XenVM("juliet")
-node_juliet.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3; /usr/bin/sudo /usr/bin/snap install leafpad"))
+node_juliet.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3 leafpad"))
 node_juliet.startVNC()
 node_juliet.routable_control_ip = True
 
 node_hamlet = request.XenVM("hamlet")
-node_hamlet.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3; /usr/bin/sudo /usr/bin/snap install leafpad"))
+node_hamlet.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3 leafpad"))
 node_hamlet.startVNC()
 node_hamlet.routable_control_ip = True
 
 node_ophelia = request.XenVM("ophelia")
-node_ophelia.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3; /usr/bin/sudo /usr/bin/snap install leafpad"))
+node_ophelia.addService(rspec.Execute(shell="bash", command="/usr/bin/sudo /usr/bin/apt update; /usr/bin/sudo /usr/bin/apt -y install pcmanfm python3 leafpad"))
 node_ophelia.startVNC()
 node_ophelia.routable_control_ip = True
 
