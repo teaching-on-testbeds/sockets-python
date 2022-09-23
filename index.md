@@ -1,6 +1,6 @@
 # Programming with Python Sockets
 
-In this tutorial, you will learn how to use the socket API to transfer data across a network. This version of the tutorial uses Python sockets. It should take you about 90 minutes to work through this tutorial.
+In this tutorial, you will learn how to use the socket API to transfer data across a network. This version of the tutorial uses Python sockets. It should take you about 90-120 minutes to work through this tutorial.
 
 Before you can run lab experiments on CloudLab, you will need to set up an account and join a project under the supervision of a research advisor or a course instructor. If you haven't set up your CloudLab account yet, follow the instructions in [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) to do so.
 
@@ -465,6 +465,11 @@ python3 balcony.py
 Print each line of dialogue as it is sent and received at each host, and verify that the entire message is transferred correctly.
 
 See if you can write both a UDP and TCP version of this code!
+
+## Release resources
+
+When you are finished with this experiment, use the "Terminate" button on the experiment page in the CloudLab web portal to release your resources and free them for other experimenters.
+
 
 ---
 
