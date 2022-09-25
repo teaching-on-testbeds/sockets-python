@@ -99,6 +99,15 @@ For this experiment, you will need a terminal session on the "romeo" and "juliet
 
 (You can refer back to the [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) experiment, if you don't remember how to open a terminal session or a VNC session!)
 
+### Network configuration
+
+Run
+
+```
+ifconfig
+```
+
+on each host, "romeo" and "juliet", and make a note of their respective IPv4 addresses. You should see that "romeo" has an interface that uses the IPv4 address 10.10.0.100, and "juliet" has an interface that uses the IPv4 address 10.10.0.101.
 
 ### Transfer data across UDP sockets
 
