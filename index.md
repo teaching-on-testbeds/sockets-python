@@ -294,7 +294,7 @@ sock2 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock2.bind(('10.10.0.101', 4000))
 ```
 
-to create a second socket, and try to `bind` it to the *same* local IP address and UDP port. You will see an error message
+to create a second socket, and try to `bind` it to the *same* local IP address and TCP port. You will see an error message
 
 ```
 OSError: [Errno 98] Address already in use
