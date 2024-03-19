@@ -2,7 +2,9 @@
 
 In this tutorial, you will learn how to use the socket API to transfer data across a network. This version of the tutorial uses Python sockets. It should take you about 90-120 minutes to work through this tutorial.
 
-Before you can run lab experiments on CloudLab, you will need to set up an account and join a project under the supervision of a research advisor or a course instructor. If you haven't set up your CloudLab account yet, follow the instructions in [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) to do so.
+You can run this experiment on CloudLab or on FABRIC.
+
+Before you can run an experiment on either of these facilities, you will need to set up an account and join a project under the supervision of a research advisor or a course instructor. If you are going to use CloudLab but you haven't set up your CloudLab account yet, follow the instructions in [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) to do so. If you are going to use FABRIC but you haven't set up your FABRIC account yet, follow the instructions in [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric) to do so.
 
 ## Background: the socket API
 
@@ -71,6 +73,8 @@ Later in this exercise, we will execute each of the socket API calls involved in
 
 Now that you know all about sockets, you are ready to set up a network of hosts and use the socket API to exchange data among them!
 
+You will run this experiment on either CloudLab or FABRIC - follow the instructions for whichever facility you are using.
+
 ### Reserve and log in to resources on CloudLab
 
 For this experiment, we will use the CloudLab profile available at the following link: [https://www.cloudlab.us/p/cl-education/sockets-python](https://www.cloudlab.us/p/cl-education/sockets-python)
@@ -99,12 +103,22 @@ For this experiment, you will need a terminal session on the "romeo" and "juliet
 
 (You can refer back to the [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) experiment, if you don't remember how to open a terminal session or a VNC session!)
 
+### Reserve and log in to resources on FABRIC
+
+If you are using FABRIC, open a terminal in the FABRIC Jupyter environment, and run
+
+```
+git clone https://github.com/teaching-on-testbeds/sockets-python.git
+```
+
+Then, open the `start_here_fabric.ipynb` notebook inside the `sockets-python` directory that will appear in your file browser. Use it to reserve resources for the experiment.
+
 ### Network configuration
 
 Run
 
 ```
-ifconfig
+ip addr
 ```
 
 on each host, "romeo" and "juliet", and make a note of their respective IPv4 addresses. You should see that "romeo" has an interface that uses the IPv4 address 10.10.0.100, and "juliet" has an interface that uses the IPv4 address 10.10.0.101.
@@ -463,7 +477,7 @@ JULIET
 To write Python code, you can either:
 
 * use `nano` or any other terminal-based text editor in the terminal on the host, or
-* in the VNC session on either host, run `leafpad` in the terminal to open a graphical text editor.
+* (if you are using CloudLab) in the VNC session on either host, run `leafpad` in the terminal to open a graphical text editor.
 
 Save your Python code using your preferred editor on "romeo" and "juliet" - for example, as `balcony.py`. Then, to test it, in the terminal on the remote host run
 
@@ -477,7 +491,7 @@ See if you can write both a UDP and TCP version of this code!
 
 ## Release resources
 
-When you are finished with this experiment, use the "Terminate" button on the experiment page in the CloudLab web portal to release your resources and free them for other experimenters.
+When you are finished with this experiment, make sure to delete your resources and free them for other experimenters.
 
 
 ---
