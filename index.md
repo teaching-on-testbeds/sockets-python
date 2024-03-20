@@ -2,9 +2,13 @@
 
 In this tutorial, you will learn how to use the socket API to transfer data across a network. This version of the tutorial uses Python sockets. It should take you about 90-120 minutes to work through this tutorial.
 
-You can run this experiment on CloudLab or on FABRIC.
+You can run this experiment on CloudLab, FABRIC, or Chameleon.
 
-Before you can run an experiment on either of these facilities, you will need to set up an account and join a project under the supervision of a research advisor or a course instructor. If you are going to use CloudLab but you haven't set up your CloudLab account yet, follow the instructions in [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) to do so. If you are going to use FABRIC but you haven't set up your FABRIC account yet, follow the instructions in [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric) to do so.
+Before you can run an experiment on either of these facilities, you will need to set up an account and join a project under the supervision of a research advisor or a course instructor. 
+
+* If you are going to use CloudLab but you haven't set up your CloudLab account yet, follow the instructions in [Hello, CloudLab](https://teaching-on-testbeds.github.io/hello-cloudlab/) to do so. 
+* If you are going to use FABRIC but you haven't set up your FABRIC account yet, follow the instructions in [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric) to do so.
+* If you are going to use Chameleon but you haven't set up your Chameleon account yet, follow the instructions in [Hello, Chameleon](https://teaching-on-testbeds.github.io/hello-chameleon) to do so.
 
 ## Background: the socket API
 
@@ -73,7 +77,7 @@ Later in this exercise, we will execute each of the socket API calls involved in
 
 Now that you know all about sockets, you are ready to set up a network of hosts and use the socket API to exchange data among them!
 
-You will run this experiment on either CloudLab or FABRIC - follow the instructions for whichever facility you are using.
+You will run this experiment on either CloudLab, FABRIC, or Chameleon - **follow the instructions for whichever facility you are using**.
 
 ### Reserve and log in to resources on CloudLab
 
@@ -112,6 +116,16 @@ git clone https://github.com/teaching-on-testbeds/sockets-python.git
 ```
 
 Then, open the `start_here_fabric.ipynb` notebook inside the `sockets-python` directory that will appear in your file browser. Use it to reserve resources for the experiment.
+
+### Reserve and log in to resources on Chameleon
+
+If you are using Chameleon, open a terminal in the Chameleon Jupyter environment, and run
+
+```
+git clone https://github.com/teaching-on-testbeds/sockets-python.git
+```
+
+Then, open the `start_here_chameleon.ipynb` notebook inside the `sockets-python` directory that will appear in your file browser. Use it to reserve resources for the experiment.
 
 ### Network configuration
 

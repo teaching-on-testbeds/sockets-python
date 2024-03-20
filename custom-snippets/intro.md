@@ -20,6 +20,4 @@ Finally, you will:
 
 * Delete your resources to free them for other experimenters
 
-**Prerequisites**: This material assumes you have already configured your FABRIC account following the instructions in [Hello, FABRIC](https://teaching-on-testbeds.github.io/hello-fabric/).
-
 :::
